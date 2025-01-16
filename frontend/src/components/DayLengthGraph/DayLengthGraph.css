@@ -1,0 +1,29 @@
+.day-length-graph {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 120px;
+  margin-left: 0.5rem;
+}
+
+.graph-container {
+  height: 4px;
+  background: #E2E8F0;
+  border-radius: 2px;
+  overflow: hidden;
+  position: relative;
+}
+
+.day-progress {
+  height: 100%;
+  background: linear-gradient(90deg, #FDB813 0%, #F6C945 100%);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.day-length-text {
+  color: #4A5568;
+  font-size: 0.75rem;
+  text-align: right;
+  white-space: nowrap;
+}

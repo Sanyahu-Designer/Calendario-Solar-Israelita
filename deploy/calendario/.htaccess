@@ -1,0 +1,33 @@
+RewriteEngine On
+RewriteBase /
+
+# Não redireciona arquivos e diretórios existentes
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Não redireciona admin, api, static e media
+RewriteCond %{REQUEST_URI} !^/admin
+RewriteCond %{REQUEST_URI} !^/api
+RewriteCond %{REQUEST_URI} !^/static
+RewriteCond %{REQUEST_URI} !^/media
+
+# Redireciona o resto para index.html
+RewriteRule ^ index.html [QSA,L]
+
+# Configurações MIME Type específicas
+<FilesMatch "\.css$">
+    ForceType text/css
+</FilesMatch>
+
+<FilesMatch "\.js$">
+    ForceType application/javascript
+</FilesMatch>
+
+<FilesMatch "\.(jpg|jpeg|png|gif|ico)$">
+    ForceType image/jpeg
+</FilesMatch>
+
+# Remove X-Content-Type-Options para arquivos estáticos
+<FilesMatch "\.(css|js|jpg|jpeg|png|gif|ico)$">
+    Header unset X-Content-Type-Options
+</FilesMatch>

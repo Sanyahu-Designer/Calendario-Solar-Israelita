@@ -1,0 +1,10 @@
+Django==5.0
+django-cors-headers==4.3.1
+djangorestframework==3.14.0
+PyMySQL==1.1.0
+python-decouple==3.8
+gunicorn==21.2.0
+whitenoise==6.6.0
+astral==3.2
+django-jazzmin==2.6.0
+requests==2.31.0

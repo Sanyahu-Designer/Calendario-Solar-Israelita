@@ -1,0 +1,66 @@
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de ambiente Python
+venv/
+env/
+.env
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+pip-log.txt
+
+# Arquivos de IDE/editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Arquivos de dependências
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Arquivos de distribuição/build
+dist/
+build/
+*.egg-info/
+staticfiles/
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários
+tmp/
+temp/
+
+# Arquivos de ambiente local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos de cobertura de testes
+coverage/
+.coverage
+htmlcov/
+
+# Arquivos de cache
+.cache/
+.pytest_cache/
+
+# Arquivos específicos do projeto
+*.sqlite3
+*.db
+*.sql
+media/
+
+# Arquivos de backup
+*.bak
+*.backup
+*~

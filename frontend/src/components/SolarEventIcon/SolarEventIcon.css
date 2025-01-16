@@ -1,0 +1,97 @@
+.solar-event-icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 18px !important;
+  height: 18px !important;
+  margin-right: 8px !important;
+}
+
+.solar-event-icon {
+  width: 100%;
+  height: 100%;
+}
+
+/* Cores base */
+.solar-event-icon .sun {
+  fill: #FDB813;
+  transform-origin: center;
+  animation: glow 2s ease-in-out infinite;
+}
+
+.solar-event-icon .rays {
+  stroke: #FDB813;
+  transform-origin: center;
+  animation: raysPulse 3s ease-in-out infinite;
+}
+
+/* Solstício de Verão - Sol radiante com raios intensos */
+.summer .sun {
+  fill: #FFB700;
+}
+
+.summer .rays {
+  stroke: #FF8A00;
+  animation: summerRays 4s ease-in-out infinite;
+}
+
+/* Solstício de Inverno - Sol suave com raios curtos */
+.winter .sun {
+  fill: #A3BFFA;
+}
+
+.winter .rays {
+  stroke: #7F9CF5;
+  animation: winterRays 4s ease-in-out infinite;
+}
+
+/* Equinócio de Primavera - Verde vibrante com flores */
+.spring .sun {
+  fill: #48BB78;
+}
+
+.spring .rays {
+  stroke: #38A169;
+  animation: springRays 4s ease-in-out infinite;
+}
+
+/* Equinócio de Outono - Tons terrosos e dourados */
+.autumn .sun {
+  fill: #ED8936;
+}
+
+.autumn .rays {
+  stroke: #DD6B20;
+  animation: autumnRays 4s ease-in-out infinite;
+}
+
+/* Animações */
+@keyframes glow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.8; }
+}
+
+@keyframes raysPulse {
+  0%, 100% { stroke-width: 1; }
+  50% { stroke-width: 2; }
+}
+
+@keyframes summerRays {
+  0%, 100% { stroke-width: 2; }
+  50% { stroke-width: 3; }
+}
+
+@keyframes winterRays {
+  0%, 100% { stroke-width: 1; }
+  50% { stroke-width: 1.5; }
+}
+
+@keyframes springRays {
+  0%, 100% { stroke-width: 1.5; }
+  50% { stroke-width: 2; }
+}
+
+@keyframes autumnRays {
+  0%, 100% { stroke-width: 1.5; }
+  50% { stroke-width: 2; }
+}

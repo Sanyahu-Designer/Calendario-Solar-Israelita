@@ -1,0 +1,60 @@
+.solar-times-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  margin: 0;
+}
+
+.solar-time-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+}
+
+.solar-time-item.sunrise {
+  border-left: 3px solid #ffd43b;
+}
+
+.solar-time-item.solar-noon {
+  border-left: 3px solid #ff922b;
+}
+
+.solar-time-item.sunset {
+  border-left: 3px solid #ff6b6b;
+}
+
+.season-info {
+  border-left: 3px solid #228be6;
+  background-color: white;
+}
+
+.time-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #495057;
+}
+
+.time-value {
+  font-weight: 600;
+  color: #228be6;
+  font-size: 0.9rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  .solar-times-info {
+    padding: 0.25rem;
+  }
+  
+  .solar-time-item {
+    flex-basis: 100%;
+    min-width: 0;
+    padding: 0.25rem 0.5rem;
+  }
+}

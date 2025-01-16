@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+<g stroke="none" fill="none">
+<circle cx="400" cy="300" r="150" fill="#FFB74D" opacity=".8"/>
+<path d="M400 100v400M200 300h400" stroke="#FFB74D" stroke-width="4" stroke-dasharray="8,8"/>
+<g fill="#FFB74D">
+<circle cx="400" cy="100" r="20"/>
+<text x="370" y="80" fill="#2D3748" font-size="14">Verão</text>
+<circle cx="600" cy="300" r="20"/>
+<text x="620" y="305" fill="#2D3748" font-size="14">Outono</text>
+<circle cx="400" cy="500" r="20"/>
+<text x="370" y="530" fill="#2D3748" font-size="14">Inverno</text>
+<circle cx="200" cy="300" r="20"/>
+<text x="140" y="305" fill="#2D3748" font-size="14">Primavera</text>
+</g>
+</g>
+</svg>

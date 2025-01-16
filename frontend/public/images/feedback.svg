@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+<g stroke="none" fill="none">
+<path d="M50 50h300c15 0 30 15 30 30v120c0 15-15 30-30 30H200l-20 40-20-40H50c-15 0-30-15-30-30V80c0-15 15-30 30-30z" fill="#FFF" stroke="#4A90E2" stroke-width="2"/>
+<circle fill="#4A90E2" cx="100" cy="140" r="20"/>
+<circle fill="#4A90E2" cx="200" cy="140" r="20"/>
+<circle fill="#4A90E2" cx="300" cy="140" r="20"/>
+<text x="200" y="100" fill="#2D3748" font-size="16" text-anchor="middle">Seu feedback é importante!</text>
+</g>
+</svg>
