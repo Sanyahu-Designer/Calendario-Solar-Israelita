@@ -12,7 +12,7 @@
 
 *Um calendário baseado no ciclo solar e nas Escrituras Sagradas*
 
-[Demonstração](https://sanyahudesigner.com.br/calendario) · [Reportar Bug](https://github.com/Sanyahu-Designer/calendario-solar/issues) · [Solicitar Recurso](https://github.com/Sanyahu-Designer/calendario-solar/issues)
+[Demonstração](https://calendario.netsarym.com.br) · [Reportar Bug](https://sanyahudesigner.com.br ) · [Solicitar Recurso](https://sanyahudesigner.com.br)
 
 </div>
 
@@ -56,7 +56,7 @@ O Calendário Solar Israelita é uma aplicação web moderna que oferece um mét
 
 Este é um projeto de portfólio que demonstra minhas habilidades em desenvolvimento web fullstack. Você pode ver o projeto em funcionamento em:
 
-[https://sanyahudesigner.com.br/calendario](https://sanyahudesigner.com.br/calendario)
+[https://calendario.netsarym.com.br](https://calendario.netsarym.com.br)
 
 ### Principais Aspectos Técnicos
 
@@ -69,7 +69,7 @@ Este é um projeto de portfólio que demonstra minhas habilidades em desenvolvim
 ## 👤 Autor
 
 **Sanyahu Designer**
-- Website: [sanyahudesigner.com.br](https://sanyahudesigner.com.br)
+- Website: [Sanyahu Designer](https://sanyahudesigner.com.br)
 - LinkedIn: [@sanyahu-designer](https://www.linkedin.com/in/sanyahu-designer/)
 - GitHub: [@Sanyahu-Designer](https://github.com/Sanyahu-Designer)
 
